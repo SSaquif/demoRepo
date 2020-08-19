@@ -3,5 +3,13 @@
   "version": "1.0.0",
   "main": "server.js",
   "author": "Sadnan Saquif",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "morgan": "^1.10.0"
+  }
 }
